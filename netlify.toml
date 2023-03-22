@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "https://heuristic-torvalds-3c6c99.netlify.app/"
-  to = "https://geoit.netlify.app/"
-  status = 301
-  force = true
