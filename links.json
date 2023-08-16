@@ -240,6 +240,10 @@
         {
           "name": "Revit Standards",
           "url": "https://www.revitstandards.org/nl/downloads/"
+        },
+        {
+          "name": "BIM handleiding Stad Gent",
+          "url": "https://bim-gent.netlify.app/"
         }
       ]
     },
@@ -252,7 +256,7 @@
         },
         {
           "name": "Civil 3D Roadmap",
-          "url": "https://trello.com/b/tafIRGcN/autodesk-civil-infrastructure-product-roadmap"
+          "url": "https://portal.productboard.com/aec-bid/3-civil-infrastructure-public-roadmap/"
         },
         {
           "name": "Revit Ideas",
