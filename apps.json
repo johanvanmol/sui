@@ -29,6 +29,11 @@
             "name": "Crunchy Bridge",
             "url": "https://crunchybridge.com/login",
             "icon": "database"
+        },
+        {
+            "name": "TV Opleidingslokaal 3",
+            "url": "https://myviewboard.com/display/",
+            "icon": "television"
         }
     ]
 }
