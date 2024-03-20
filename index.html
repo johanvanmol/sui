@@ -12,14 +12,19 @@
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script>
         async function getAuthors() {
-                const response = await fetch('https://vtvjefdhglfhyozijooc.supabase.co/rest/v1/bers-parameters-auteurs',
-                    {
-                        method: 'GET',
-                        headers: { 'apikey': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ0dmplZmRoZ2xmaHlvemlqb29jIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzA3NzI3MDksImV4cCI6MTk4NjM0ODcwOX0.ELk6PnDbvOEzKYtYjGXpKtvhgcMRVcw6comQenCn8Wg' }
-                    });
-                const authors = await response.json();
-                console.log(authors);
-            }
+            const response = await fetch('https://vtvjefdhglfhyozijooc.supabase.co/rest/v1/bers-parameters-auteurs',
+                {
+                    method: 'GET',
+                    headers: { 'apikey': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ0dmplZmRoZ2xmaHlvemlqb29jIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzA3NzI3MDksImV4cCI6MTk4NjM0ODcwOX0.ELk6PnDbvOEzKYtYjGXpKtvhgcMRVcw6comQenCn8Wg' }
+                });
+            const authors = await response.json();
+            console.log(authors);
+        }
+
+        function loadFunctions() {
+            getAuthors();
+            // Call other functions that need to run on load here
+        }
     </script>
 
 </head>
