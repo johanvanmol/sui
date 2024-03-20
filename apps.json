@@ -34,6 +34,11 @@
             "name": "TV Opleidingslokaal 3",
             "url": "https://myviewboard.com/display/",
             "icon": "television"
+        },
+        {
+            "name": "NATO alfabet",
+            "url": "https://it-tools.tech/text-to-nato-alphabet",
+            "icon": "translate"
         }
     ]
 }
