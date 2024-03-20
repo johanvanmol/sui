@@ -10,32 +10,6 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <script>
-        async function getAuthors() {
-            try {
-                const response = await fetch('https://vtvjefdhglfhyozijooc.supabase.co/rest/v1/bers-parameters-auteurs',
-                    {
-                        method: 'GET',
-                        headers: { 'apikey': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ0dmplZmRoZ2xmaHlvemlqb29jIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzA3NzI3MDksImV4cCI6MTk4NjM0ODcwOX0.ELk6PnDbvOEzKYtYjGXpKtvhgcMRVcw6comQenCn8Wg' }
-                    });
-
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                } else {
-                    const authors = await response.json();
-                    console.log(authors);
-                }
-            } catch (error) {
-                console.log('There was a problem with the fetch operation: ' + error.message);
-            }
-        }
-
-        function loadFunctions() {
-            getAuthors();
-            // Call other functions that need to run on load here
-        }
-    </script>
-
 </head>
 
 <body onload="loadFunctions()">
