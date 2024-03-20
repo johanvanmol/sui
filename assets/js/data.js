@@ -9,7 +9,7 @@ function fetchAndRender (name) {
         });
 }
 
-function getAuthors() {
+async function getAuthors() {
     try {
         const response = await fetch('https://vtvjefdhglfhyozijooc.supabase.co/rest/v1/bers-parameters-auteurs',
             {
