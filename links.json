@@ -51,6 +51,18 @@
         {
           "name": "Chaos Group Account",
           "url": "https://accounts.chaosgroup.com/"
+        },
+        {
+          "name": "SketchUp PRM",
+          "url": "https://sketchup.my.site.com/PRM/s/"
+        },
+        {
+          "name": "SketchUp PRM handleiding",
+          "url": "https://docs.google.com/document/d/1UWlGGk_ogT-h3AQ79sD2pq5h2ubOF0QTWv2PBT3i1zQ/edit?pli=1"
+        },
+        {
+          "name": "SketchUp Partner Hub",
+          "url": "https://partners.sketchup.com/"
         }
       ]
     },
