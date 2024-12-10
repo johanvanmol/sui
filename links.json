@@ -34,6 +34,10 @@
         {
           "name":"Feedback community (previews)",
           "url": "https://feedback.autodesk.com/home.html?welcome"
+        },
+        {
+          "name":"Fusion Online",
+          "url": "https://fusion.online.autodesk.com/webapp?submit_button=Launch+Autodesk+Fusion"
         }
       ]
     },
