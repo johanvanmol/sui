@@ -86,6 +86,10 @@
           "url": "https://acc.autodesk.com/projects"
         },
         {
+          "name": "Tandem",
+          "url": "https://tandem.autodesk.com/"
+        },
+        {
           "name": "Assemble",
           "url": "https://geo-it.tryassemble.com/"
         },
