@@ -141,6 +141,10 @@
         {
           "name": "Autodesk Desktop Connector",
           "url": "https://help.autodesk.com/view/CONNECT/ENU/"
+        },
+        {
+          "name": "Autodesk Tandem",
+          "url": "https://help.autodesk.com/view/TANDEM/ENU/"
         }
       ]
     },
