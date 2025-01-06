@@ -86,6 +86,14 @@
           "url": "https://acc.autodesk.com/projects"
         },
         {
+          "name": "Content Catalog 🇪🇺",
+          "url": "https://contentcatalog.autodesk.eu"
+        },
+        {
+          "name": "Content Catalog 🇺🇸",
+          "url": "https://contentcatalog.autodesk.com"
+        },
+        {
           "name": "Tandem",
           "url": "https://tandem.autodesk.com/"
         },
